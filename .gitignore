@@ -1,0 +1,6 @@
+ __pycache__/
+ stampede_env/
+ datasets/
+ test_videos/
+ trained_models/
+ .vscode/

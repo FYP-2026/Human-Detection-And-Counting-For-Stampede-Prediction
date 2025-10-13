@@ -1,1 +1,0 @@
-# Human-Detection-And-Counting-For-Stampede-Prediction
