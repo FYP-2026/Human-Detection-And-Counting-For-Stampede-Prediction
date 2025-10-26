@@ -1,6 +1,48 @@
- __pycache__/
- stampede_env/
- datasets/
- test_videos/
- trained_models/
- .vscode/
+# --- Python / Conda ---
+# Environment folders (add your specific conda env name if created inside project)
+stampede_env/
+venv/
+env/
+*/__pycache__/
+*.pyc
+*.pyo
+
+# --- Large Data, Models & Results (DO NOT PUSH) ---
+# Training Dataset folder
+datasets/
+
+# Trained models and training run results
+trained_models/
+CV_models/
+
+# Test video files (keep folder structure with .gitkeep)
+data/test_videos/*
+!data/test_videos/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# --- Django Specific ---
+# Database file
+db.sqlite3
+*.sqlite3
+
+# User-uploaded media (if you add later)
+media/
+
+# Generated static files (if using collectstatic differently)
+# staticfiles/
+
+# --- Generated Files / Logs ---
+status.json
+*.log
+
+# --- IDE / OS Specific ---
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# --- Roboflow ---
+# Roboflow download cache/temp files if any created locally
+*.roboflow.zip
